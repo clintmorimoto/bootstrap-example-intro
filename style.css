@@ -1,6 +1,7 @@
 body {
   text-align: center;
   margin-top: 40px;
+  background-color: lightgreen;
 }
 
 .section-1 {
@@ -21,9 +22,9 @@ body {
 }
 
 .section-2 {
-  background-color: beige;
+  background-color: lightsalmon;
   padding: 20px;
-  
+
 }
 
 .well-color {
@@ -42,4 +43,7 @@ h1 {
   background-color: khaki;
 }
 
-
+/* START NEW CLASSES/STYLES... */
+.startHead + .endHead {
+  margin-top: 25px;
+}
